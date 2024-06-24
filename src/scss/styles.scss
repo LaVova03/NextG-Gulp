@@ -1416,6 +1416,7 @@ main > div > ul {
   }
   .footer_last_part > div:last-child {
     bottom: 0;
+    align-items: baseline;
   }
 
   .footer_last_part div:nth-of-type(1) ul,
