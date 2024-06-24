@@ -1255,6 +1255,7 @@ main > div > ul {
 
   .second_part_lastblock > div:first-child {
     width: 100%;
+    height: max-content;
     background-size: cover;
   }
   .secont_part_right ul:first-child li {
@@ -1271,7 +1272,13 @@ main > div > ul {
     height: max-content;
     background-color: $bckg-color;
     margin-bottom: 0;
+    padding-top: 80px;
   }
+
+  .brands_wrap ul li:nth-of-type(2) {
+    display: none;
+  }
+
   .brands_wrap ul {
     flex-wrap: wrap;
     height: max-content;
@@ -1292,6 +1299,7 @@ main > div > ul {
 
   .second_part_lastblock > div:first-child div {
     width: 40%;
+    height: max-content;
   }
 
   .brands_wrap ul li:first-child,
