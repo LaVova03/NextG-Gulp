@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Rubik";
-  src: local("Rubik"), url(../assets/fonts/Rubik/static/Rubik-Regular.ttf) format(opentype);
+  src: local("Rubik"), url(./assets/fonts/Rubik/static/Rubik-Regular.ttf) format(opentype);
 }
 @font-face {
   font-family: "Rubik-Medium";
-  src: local("Rubik-Medium"), url(../assets/fonts/Rubik/static/Rubik-Medium.ttf) format(opentype);
+  src: local("Rubik-Medium"), url(./assets/fonts/Rubik/static/Rubik-Medium.ttf) format(opentype);
 }
 @font-face {
   font-family: "Open_Sans";
-  src: local("Open_Sans"), url(../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf) format(opentype);
+  src: local("Open_Sans"), url(./assets/fonts/Open_Sans/static/OpenSans-Regular.ttf) format(opentype);
 }
 @font-face {
   font-family: "Open_Sans_Medium";
-  src: local("Open_Sans_Medium"), url(../assets/fonts/Open_Sans/static/OpenSans-Medium.ttf) format(opentype);
+  src: local("Open_Sans_Medium"), url(./assets/fonts/Open_Sans/static/OpenSans-Medium.ttf) format(opentype);
 }
 body,
 html {
@@ -133,7 +133,7 @@ header {
   gap: 0px;
   opacity: 0px;
   background-color: rgb(247, 253, 251);
-  background-image: url(../assets/images/background.png);
+  background-image: url(./assets/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 891px;
@@ -144,7 +144,7 @@ header {
   height: 100%;
   gap: 0px;
   opacity: 0px;
-  background-image: url(../assets/images/woman.png);
+  background-image: url(./assets/images/woman.png);
   background-repeat: no-repeat;
 }
 
@@ -397,7 +397,7 @@ main > div > ul {
 }
 
 .second_part_lastblock > div:first-child {
-  background-image: url(../assets/images/Mask_Group.png);
+  background-image: url(./assets/images/Mask_Group.png);
   background-repeat: no-repeat;
   width: 1140px;
   height: 616px;
@@ -558,7 +558,7 @@ main > div > ul {
   width: 46px;
   height: 46px;
   background: inherit;
-  background-image: url(../assets/images/phone.png);
+  background-image: url(./assets/images/phone.png);
   background-repeat: no-repeat;
   background-position: center;
   border: 0;
