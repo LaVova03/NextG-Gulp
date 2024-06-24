@@ -1222,8 +1222,6 @@ main > div > ul {
   }
   .second_part_lastblock > div:first-child {
     width: 100%;
-    height: -moz-max-content;
-    height: max-content;
     background-size: cover;
   }
   .secont_part_right ul:first-child li {
@@ -1269,6 +1267,7 @@ main > div > ul {
     height: -moz-max-content;
     height: max-content;
     padding: 58px 30px;
+    opacity: 0.7;
   }
   .brands_wrap ul li:first-child,
   .brands_wrap ul li:nth-of-type(2),
