@@ -1,0 +1,21 @@
+{
+  "name": "test-nextg",
+  "version": "1.0.0",
+  "description": "Project with HTML and SCSS using Gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch --gulpfile gulpfile.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.77.6"
+  }
+}
