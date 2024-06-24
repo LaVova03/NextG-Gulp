@@ -1376,4 +1376,8 @@ main > div > ul {
   .footer_last_part div:nth-of-type(1) ul:nth-of-type(3) {
     margin: 10px;
   }
+  .footer_last_part div:nth-of-type(1) ul li:first-child {
+    display: flex;
+    justify-content: center;
+  }
 }
