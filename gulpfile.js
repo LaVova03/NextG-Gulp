@@ -24,19 +24,12 @@ function copyHtml() {
     .pipe(dest('dist'));
 }
 
-function copyJs() {
-  return src('src/js/**/*.js')
-    .pipe(dest('dist/js'));
-}
-
 function watchFiles() {
   watch('src/scss/**/*.scss', compileSass);
   watch('src/**/*.html', copyHtml);
-  watch('src/js/**/*.js', copyJs);
 }
 
 exports.compileSass = compileSass;
 exports.copyHtml = copyHtml;
-exports.copyJs = copyJs;
 exports.watch = watchFiles;
-exports.default = series(compileSass, copyHtml, copyJs);
+exports.default = series(compileSass, copyHtml);
