@@ -1227,9 +1227,10 @@ main > div > ul {
     width: 50%;
   }
   .secont_part_right ul:nth-child(2) {
-    width: 100%;
+    width: 90%;
     height: -moz-max-content;
     height: max-content;
+    padding: 50px 5%;
   }
   .brands_wrap {
     width: 100%;
