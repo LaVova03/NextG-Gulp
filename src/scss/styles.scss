@@ -11,13 +11,13 @@ $bckg3-color: rgb(224, 224, 224);
 @font-face {
   font-family: "Rubik";
   src: local("Rubik"),
-    url(../../dist/assets/fonts/Rubik/static/Rubik-Regular.ttf) format(opentype);
+    url(/dist/assets/fonts/Rubik/static/Rubik-Regular.ttf) format(opentype);
 }
 
 @font-face {
   font-family: "Rubik-Medium";
   src: local("Rubik-Medium"),
-    url(../../dist/assets/fonts/Rubik/static/Rubik-Medium.ttf) format(opentype);
+    url(../assets/fonts/Rubik/static/Rubik-Medium.ttf) format(opentype);
 }
 
 @font-face {
