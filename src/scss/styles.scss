@@ -1248,9 +1248,13 @@ main > div > ul {
     background: inherit;
   }
 
-  .secont_part_right ul:nth-child(2) li:nth-child(2),
+  .secont_part_right ul:nth-child(2) li:nth-child(2) {
+    width: 100%;
+  }
+
   .secont_part_right {
     width: 100%;
+    margin-top: 80px;
   }
 
   .second_part_lastblock > div:first-child {
@@ -1301,7 +1305,7 @@ main > div > ul {
   .second_part_lastblock > div:first-child div {
     width: 40%;
     height: max-content;
-    padding: 20px 20px;
+    padding: 58px 30px;
   }
 
   .brands_wrap ul li:first-child,
