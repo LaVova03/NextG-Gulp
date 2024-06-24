@@ -1,6 +1,12 @@
 $logo-color: rgba(196, 196, 196, 1);
 $btn-color: rgba(27, 95, 193, 1);
 $text-color: rgba(255, 255, 255, 1);
+$text2-color: rgba(12, 18, 45, 1);
+$text3-color: rgba(87, 92, 116, 1);
+$text4-color: rgba(97, 103, 119, 1);
+$bckg-color: rgba(247, 253, 251, 1);
+$bckg2-color: rgba(255, 184, 0, 1);
+$bckg3-color: rgb(224, 224, 224);
 
 @font-face {
   font-family: "Rubik";
@@ -47,7 +53,7 @@ body > div > div {
   position: relative;
   z-index: -2;
   height: 891px;
-  background-color: rgba(247, 253, 251, 1);
+  background-color: $bckg-color;
 }
 
 header {
@@ -76,7 +82,7 @@ header {
       display: flex;
       justify-content: left;
       width: 570px;
-      background-color: rgba(247, 253, 251, 1);
+      background-color: $bckg-color;
       ul {
         padding: 0;
         margin: 304px 0 0 0;
@@ -88,7 +94,7 @@ header {
             font-weight: 500;
             line-height: 30px;
             text-align: left;
-            color: rgba(255, 184, 0, 1);
+            color: $bckg2-color;
           }
           &:nth-of-type(2) {
             font-family: "Rubik-Medium";
@@ -97,7 +103,7 @@ header {
             line-height: 82px;
             text-align: left;
             margin-top: 30px;
-            color: rgba(12, 18, 45, 1);
+            color: $text2-color;
           }
           &:nth-of-type(3) {
             font-family: "Open_Sans";
@@ -106,7 +112,7 @@ header {
             line-height: 24px;
             text-align: left;
             margin-top: 40px;
-            color: rgba(87, 92, 116, 1);
+            color: $text3-color;
           }
           button {
             width: 115px;
@@ -123,8 +129,8 @@ header {
             line-height: 30px;
             text-align: center;
             margin-top: 54px;
-            color: rgba(255, 255, 255, 1);
-            background: rgba(27, 95, 193, 1);
+            color: $text-color;
+            background: $btn-color;
             -webkit-border-radius: 8px;
             -moz-border-radius: 8px;
             -ms-border-radius: 8px;
@@ -132,8 +138,8 @@ header {
             &:last-child {
               width: 125px;
               margin-left: 20px;
-              border: 1px solid rgba(255, 184, 0, 1);
-              color: rgba(255, 184, 0, 1);
+              border: 1px solid $bckg2-color;
+              color: $bckg2-color;
               background: inherit;
             }
           }
@@ -146,7 +152,7 @@ header {
     width: 50%;
     gap: 0px;
     opacity: 0px;
-    background-color: rgba(247, 253, 251, 1);
+    background-color: $bckg-color;
     background-image: url(../../assets/images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,11 +234,11 @@ header {
           line-height: 30px;
           background: inherit;
           border: 0;
-          color: rgba(87, 92, 116, 1);
+          color: $text3-color;
         }
 
         .nav_menu_btnfirst {
-          color: rgba(12, 18, 45, 1);
+          color: $text2-color;
         }
 
         .nav_menu_btnlast {
@@ -262,7 +268,7 @@ main > div {
   position: relative;
   z-index: -2;
   justify-content: center;
-  background-color: rgba(247, 253, 251, 1);
+  background-color: $bckg-color;
 }
 
 main > div > ul {
@@ -299,7 +305,7 @@ main > div > ul {
       font-weight: 700;
       line-height: 28px;
       text-align: left;
-      color: rgba(12, 18, 45, 1);
+      color: $text2-color;
     }
     &:last-child {
       font-family: "Open_Sans";
@@ -307,7 +313,7 @@ main > div > ul {
       font-weight: 400;
       line-height: 22px;
       text-align: left;
-      color: rgba(97, 103, 119, 1);
+      color: $text4-color;
     }
   }
 }
@@ -393,7 +399,7 @@ main > div > ul {
       font-weight: 700;
       line-height: 50px;
       text-align: left;
-      color: rgba(12, 18, 45, 1);
+      color: $text2-color;
     }
     &:last-child {
       font-family: "Open_Sans";
@@ -443,8 +449,8 @@ main > div > ul {
       font-weight: 400;
       line-height: 24px;
       text-align: left;
-      color: rgba(255, 255, 255, 1);
-      background: rgba(27, 95, 193, 1);
+      color: $text-color;
+      background: $btn-color;
     }
   }
   &:last-child {
@@ -474,12 +480,12 @@ main > div > ul {
         line-height: 24px;
         text-align: left;
         &:first-child {
-          background: rgba(255, 255, 255, 1);
-          color: rgba(87, 92, 116, 1);
+          background: $text-color;
+          color: $text3-color;
         }
         &:last-child {
-          background: rgba(27, 95, 193, 1);
-          color: rgba(255, 255, 255, 1);
+          background: $btn-color;
+          color: $text-color;
           border-radius: 0px 20px 0px 0px;
           -webkit-border-radius: 0px 20px 0px 0px;
           -moz-border-radius: 0px 20px 0px 0px;
@@ -497,7 +503,7 @@ main > div > ul {
       padding: 50px 30px;
       gap: 0px;
       opacity: 0px;
-      background: rgba(255, 184, 0, 1);
+      background: $bckg2-color;
       li {
         &:first-child {
           display: flex;
@@ -512,7 +518,7 @@ main > div > ul {
           font-weight: 700;
           line-height: 50px;
           text-align: left;
-          color: rgba(12, 18, 45, 1);
+          color: $text2-color;
         }
         &:nth-child(2) {
           width: 492px;
@@ -531,21 +537,21 @@ main > div > ul {
           width: 165px;
           display: flex;
           justify-content: left;
-          border-right: 1px solid rgba(255, 255, 255, 1);
+          border-right: 1px solid $text-color;
           button {
             width: 125px;
             height: 46px;
             padding: 8px 24px 8px 24px;
             gap: 10px;
             border-radius: 8px;
-            border: 1px solid rgba(27, 95, 193, 1);
+            border: 1px solid $btn-color;
             opacity: 0px;
             -webkit-border-radius: 8px;
             -moz-border-radius: 8px;
             -ms-border-radius: 8px;
             -o-border-radius: 8px;
-            background: rgba(255, 184, 0, 1);
-            color: rgba(27, 95, 193, 1);
+            background: $bckg2-color;
+            color: $btn-color;
           }
         }
         &:nth-child(4) {
@@ -606,7 +612,7 @@ main > div > ul {
                     font-weight: 600;
                     line-height: 24px;
                     text-align: left;
-                    color: rgba(27, 95, 193, 1);
+                    color: $btn-color;
                   }
                   &:nth-of-type(2) {
                     width: 195px;
@@ -662,7 +668,7 @@ main > div > ul {
         font-weight: 400;
         line-height: 24px;
         text-align: left;
-        color: rgba(87, 92, 116, 1);
+        color: $text3-color;
       }
       &:nth-of-type(2) {
         width: 147px;
@@ -670,7 +676,7 @@ main > div > ul {
         margin-left: 16px;
         gap: 0px;
         opacity: 0px;
-        background: rgba(255, 184, 0, 1);
+        background: $bckg2-color;
       }
       &:nth-of-type(3) {
         margin-left: 87px;
@@ -705,7 +711,7 @@ main > div > ul {
   gap: 0px;
   border-radius: 0px 0px 0px 150px;
   opacity: 0px;
-  background: rgba(247, 253, 251, 1);
+  background: $bckg-color;
 }
 
 .reasons_wrap > div {
@@ -733,7 +739,7 @@ main > div > ul {
           font-weight: 700;
           line-height: 50px;
           text-align: left;
-          color: rgba(12, 18, 45, 1);
+          color: $text2-color;
           margin-bottom: 35px;
         }
         &:nth-of-type(2) {
@@ -742,7 +748,7 @@ main > div > ul {
           font-weight: 400;
           line-height: 30px;
           text-align: left;
-          color: rgba(87, 92, 116, 1);
+          color: $text3-color;
         }
       }
     }
@@ -778,7 +784,7 @@ main > div > ul {
               font-weight: 700;
               line-height: 28px;
               text-align: left;
-              color: rgba(12, 18, 45, 1);
+              color: $text2-color;
               margin-bottom: 12px;
             }
             &:nth-of-type(2) {
@@ -791,7 +797,7 @@ main > div > ul {
               font-weight: 400;
               line-height: 22px;
               text-align: left;
-              color: rgba(87, 92, 116, 1);
+              color: $text3-color;
             }
           }
         }
@@ -850,7 +856,7 @@ main > div > ul {
         line-height: 50px;
         text-align: center;
         margin-bottom: 35px;
-        color: rgba(12, 18, 45, 1);
+        color: $text2-color;
       }
       &:nth-of-type(2) {
         margin: 0 auto;
@@ -864,7 +870,7 @@ main > div > ul {
         line-height: 30px;
         text-align: center;
         margin-bottom: 35px;
-        color: rgba(87, 92, 116, 1);
+        color: $text3-color;
       }
       &:last-child {
         width: max-content;
@@ -878,13 +884,13 @@ main > div > ul {
           border-radius: 8px;
           border: 0;
           opacity: 0px;
-          background: rgba(27, 95, 193, 1);
+          background: $btn-color;
           font-family: Rubik;
           font-size: 14px;
           font-weight: 500;
           line-height: 30px;
           text-align: center;
-          color: rgba(255, 255, 255, 1);
+          color: $text-color;
           -webkit-border-radius: 8px;
           -moz-border-radius: 8px;
           -ms-border-radius: 8px;
@@ -905,7 +911,7 @@ main > div > ul {
   height: 133px;
   gap: 0px;
   opacity: 0px;
-  background: rgb(255, 184, 0);
+  background: $bckg2-color;
   ul {
     display: flex;
     width: 1140px;
@@ -926,7 +932,7 @@ main > div > ul {
         height: 52px;
         gap: 0px;
         opacity: 0px;
-        background: rgb(224, 224, 224);
+        background: $bckg3-color;
       }
       ul {
         margin: 0;
@@ -959,7 +965,7 @@ main > div > ul {
                 font-weight: 500;
                 line-height: 30px;
                 text-align: left;
-                color: rgba(12, 18, 45, 1);
+                color: $text2-color;
               }
               &:nth-of-type(2) {
                 width: max-content;
@@ -971,7 +977,7 @@ main > div > ul {
                 font-weight: 400;
                 line-height: 20px;
                 text-align: left;
-                color: rgba(12, 18, 45, 1);
+                color: $text2-color;
               }
             }
           }
@@ -992,7 +998,7 @@ main > div > ul {
   height: 417px;
   gap: 0px;
   opacity: 0px;
-  background: rgba(247, 253, 251, 1);
+  background: $bckg-color;
   div {
     height: max-content;
     &:nth-of-type(1) {
@@ -1023,7 +1029,7 @@ main > div > ul {
             line-height: 22px;
             text-align: left;
             width: max-content;
-            color: rgba(87, 92, 116, 1);
+            color: $text3-color;
           }
         }
         &:nth-of-type(2) {
@@ -1040,7 +1046,7 @@ main > div > ul {
               font-weight: 500;
               line-height: 30px;
               text-align: left;
-              color: rgb(12, 18, 45);
+              color: $text2-color;
             }
             &:nth-of-type(2) {
               ul {
@@ -1060,10 +1066,10 @@ main > div > ul {
                     cursor: pointer;
                     width: max-content;
                     height: max-content;
-                    color: rgba(87, 92, 116, 1);
+                    color: $text3-color;
                   }
                   button:hover {
-                    color: rgba(27, 95, 193, 1);
+                    color: $btn-color;
                   }
                 }
               }
@@ -1084,7 +1090,7 @@ main > div > ul {
               font-weight: 500;
               line-height: 30px;
               text-align: left;
-              color: rgb(12, 18, 45);
+              color: $text2-color;
             }
             &:nth-of-type(2) {
               display: flex;
@@ -1111,10 +1117,10 @@ main > div > ul {
                         cursor: pointer;
                         width: max-content;
                         height: max-content;
-                        color: rgba(87, 92, 116, 1);
+                        color: $text3-color;
                       }
                       button:hover {
-                        color: rgba(27, 95, 193, 1);
+                        color: $btn-color;
                       }
                     }
                   }
@@ -1140,7 +1146,7 @@ main > div > ul {
   line-height: 22px;
   text-align: left;
   width: max-content;
-  color: rgba(87, 92, 116, 1);
+  color: $text3-color;
   div {
     display: flex;
     align-items: center;
@@ -1148,7 +1154,7 @@ main > div > ul {
     height: 15px;
     &:nth-of-type(2) {
       width: 15px;
-      background: rgba(87, 92, 116, 1);
+      background: $text3-color;
       margin: 0 5px;
     }
   }
@@ -1265,7 +1271,7 @@ main > div > ul {
   .brands_wrap {
     width: 100%;
     height: max-content;
-    background-color: rgb(247, 253, 251);
+    background-color: $bckg-color;
     margin-bottom: 0;
   }
   .brands_wrap ul {
@@ -1286,7 +1292,7 @@ main > div > ul {
     margin: 0 auto 20px;
   }
 
-  .second_part_lastblock > div:first-child div{
+  .second_part_lastblock > div:first-child div {
     width: 40%;
   }
 
@@ -1416,7 +1422,7 @@ main > div > ul {
 
   .footer_last_part div:nth-of-type(1) ul,
   .footer_last_part div:nth-of-type(1) ul:nth-of-type(2),
-  .footer_last_part div:nth-of-type(1) ul:nth-of-type(3){
+  .footer_last_part div:nth-of-type(1) ul:nth-of-type(3) {
     margin: 10px;
   }
 }

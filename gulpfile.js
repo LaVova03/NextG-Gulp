@@ -1,11 +1,6 @@
 const { src, dest, watch, series } = require('gulp');
 const gulpSass = require('gulp-sass')(require('sass'));
-let autoprefixer;
-
-// Динамически импортируем gulp-autoprefixer
-(async () => {
-  autoprefixer = (await import('gulp-autoprefixer')).default;
-})();
+const autoprefixer = require('gulp-autoprefixer');
 
 function compileSass() {
   return src('src/scss/**/*.scss')
@@ -21,12 +16,19 @@ function copyHtml() {
     .pipe(dest('dist'));
 }
 
+function copyJs() {
+  return src('src/js/**/*.js')
+    .pipe(dest('dist/js'));
+}
+
 function watchFiles() {
   watch('src/scss/**/*.scss', compileSass);
   watch('src/**/*.html', copyHtml);
+  watch('src/js/**/*.js', copyJs);
 }
 
 exports.compileSass = compileSass;
 exports.copyHtml = copyHtml;
+exports.copyJs = copyJs;
 exports.watch = watchFiles;
-exports.default = series(compileSass, copyHtml, watchFiles);
+exports.default = series(compileSass, copyHtml, copyJs, watchFiles);
